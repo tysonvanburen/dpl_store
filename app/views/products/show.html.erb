@@ -1,4 +1,6 @@
+
 <%= link_to('Create a new product', new_product_path) %>
+
 <h1><%= @product.name %></h1>
 <h3><%= number_to_currency(@product.price) %></h3>
 <p>Sku: <%= @product.sku %></p>

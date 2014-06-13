@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: 'Helvetica neue'
+  font-family: 'Helvetica neue';
+  float: left;
   font-size: 16px;
   color: #333333;
   background: transparent url('Black_Ninja_Background.jpg') no-repeat scroll center center;
@@ -18,6 +19,11 @@ body {
 header {
   margin-bottom: 20px;
   padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  background: rgba(102, 157, 117, 0.9);
 }
 
 .flash-alert {
@@ -41,6 +47,7 @@ header {
 #left-column {
   float: left;
   width: 400px;
+  padding-left: 50px;
 }
 
 #right-column {
@@ -53,9 +60,15 @@ a {
   color: #444444
 }
 
+#products {
+  padding: 20px;
+  
+}
+
 #main-content {
   background-color: white;
   padding: 20px;
+  float: left;
 }
 
 ul#products {
@@ -70,10 +83,16 @@ ul#products li.odd {
   background-color: #eeeeee;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(77,77,77,0.5);
+  text-align: left;
+}
+
 footer {
-  margin-top: 20px;
-  text-align: center;
-  padding: 20px
-  border-top: 1px solid #eeeeee;
-  font-size: 12px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
